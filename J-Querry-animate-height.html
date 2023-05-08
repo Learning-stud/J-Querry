@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ <title>Document</title>
+</head>
+<body>
+ <style>
+  div{
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  position: absolute;
+}
+</style>
+<body>
+   <button  style="width: 100px;" > devanshu </button>
+   <div>jay gajjar</div>
+<script>
+  $(document).ready(function () {
+         $("button").click(function () {
+       
+        var div=$("div")
+       // div.animate({height: "toggle"},"slow")  
+       // div.animate({width: "toggle"},"slow")  
+       // div.animate({height: "toggle"},"slow")  
+       // div.animate({width: "toggle"},"slow")  
+       // div.animate({height: "toggle"},"slow")  
+           div.animate({left:"250px"},"slow")
+           div.animate({fontSize:"25px"},"slow")
+         })
+         
+      });
+</script>
+ 
+</body>
+</html>
